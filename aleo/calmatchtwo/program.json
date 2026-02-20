@@ -1,0 +1,6 @@
+{
+  "program": "calmatchtwo.aleo",
+  "version": "0.1.0",
+  "description": "Privacy-preserving calendar matching. Stores only the intersection result on-chain.",
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+// Test input for compute_intersection_direct transition
+// Party A: available at 10am(3), 12pm(5), 2pm(2), 3pm(4)
+// Party B: available at 10am(4), 11am(3), 12pm(2), 3pm(5)
+// Expected: Best slot is 3pm (index 6) with score 4*5=20... but u8 caps at 25
+
+[compute_intersection_direct]
+// My calendar record (Party A)
+my_calendar: Calendar = Calendar {
+    owner: aleo1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq3ljyzc,
+    day: DaySlots {
+        slot_0: 0u8,
+        slot_1: 3u8,
+        slot_2: 0u8,
+        slot_3: 5u8,
+        slot_4: 0u8,
+        slot_5: 2u8,
+        slot_6: 4u8,
+        slot_7: 0u8
+    },
+    calendar_id: 123456789field
+};
+
+// Party B's availability
+other_slot_0: u8 = 0u8;   // 9am - unavailable
+other_slot_1: u8 = 4u8;   // 10am - preference 4
+other_slot_2: u8 = 3u8;   // 11am - preference 3
+other_slot_3: u8 = 2u8;   // 12pm - preference 2
+other_slot_4: u8 = 0u8;   // 1pm - unavailable
+other_slot_5: u8 = 0u8;   // 2pm - unavailable
+other_slot_6: u8 = 5u8;   // 3pm - preference 5
+other_slot_7: u8 = 0u8;   // 4pm - unavailable
+
+meeting_id: field = 999888777field;

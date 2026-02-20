@@ -1,0 +1,6 @@
+{
+  "program": "privycalendar.aleo",
+  "version": "0.1.0",
+  "description": "Privacy-preserving calendar matching - find common meeting slots without revealing your full calendar",
+  "license": "MIT"
+}

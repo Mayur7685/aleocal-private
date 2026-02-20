@@ -1,0 +1,13 @@
+// Test input for create_calendar transition
+// Simulates a user available at 10am, 12pm, and 3pm with varying preferences
+
+[create_calendar]
+slot_0: u8 = 0u8;   // 9am - unavailable
+slot_1: u8 = 3u8;   // 10am - preference 3
+slot_2: u8 = 0u8;   // 11am - unavailable
+slot_3: u8 = 5u8;   // 12pm - preference 5 (highest)
+slot_4: u8 = 0u8;   // 1pm - unavailable
+slot_5: u8 = 2u8;   // 2pm - preference 2
+slot_6: u8 = 4u8;   // 3pm - preference 4
+slot_7: u8 = 0u8;   // 4pm - unavailable
+calendar_id: field = 123456789field;

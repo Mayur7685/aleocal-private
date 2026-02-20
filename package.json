@@ -1,0 +1,47 @@
+{
+  "name": "aleocal",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "AleoCal - Privacy-preserving calendar matching using Aleo zero-knowledge proofs",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@demox-labs/aleo-wallet-adapter-base": "^0.0.23",
+    "@demox-labs/aleo-wallet-adapter-react": "^0.0.22",
+    "@demox-labs/aleo-wallet-adapter-reactui": "^0.0.36",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@provablehq/aleo-types": "^0.3.0-alpha.3",
+    "@provablehq/aleo-wallet-adaptor-core": "^0.3.0-alpha.3",
+    "@provablehq/aleo-wallet-adaptor-leo": "^0.3.0-alpha.3",
+    "@provablehq/aleo-wallet-adaptor-react": "^0.3.0-alpha.3",
+    "@provablehq/aleo-wallet-adaptor-react-ui": "^0.3.0-alpha.3",
+    "@provablehq/aleo-wallet-adaptor-shield": "^0.3.0-alpha.3",
+    "@provablehq/aleo-wallet-standard": "^0.3.0-alpha.3",
+    "@provablehq/sdk": "^0.9.15",
+    "aleo-adapters": "^1.2.1",
+    "comlink": "^4.4.1",
+    "framer-motion": "^6.5.1",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
+    "react-typed": "^2.0.12",
+    "socket.io-client": "^4.7.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@vitejs/plugin-react": "^5.1.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.21",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.5.0"
+  }
+}

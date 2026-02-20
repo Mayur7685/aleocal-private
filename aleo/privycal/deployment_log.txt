@@ -1,0 +1,24 @@
+🚀 Starting Aleo Program Deployment...
+
+✅ Loaded program from: /Users/mayurasodara/Desktop/aleo-aleocal/aleocal/aleo/privycal/build/main.aleo
+   Program size: 12.77 KB
+
+✅ Account loaded
+   Address: [object Object]
+
+✅ Key provider initialized
+
+✅ Network client connected
+   Endpoint: https://api.explorer.provable.com/v1 (v2 API)
+
+✅ Program manager initialized
+
+📦 Building deployment transaction...
+   Priority fee: 0 microcredits
+
+Program privycal.aleo does not exist on the network, deploying...
+Fetching proving keys from url https://parameters.provable.com/testnet/fee_public.prover.f72b6ff
+Creating deployment transaction
+Checking program has a valid name
+Checking program imports are valid and add them to the process
+Creating deployment
